@@ -6,12 +6,20 @@ Tested on Anaconda 2.7 windows. You can download chrome driver from http://chrom
 
 Goal: Capture Information 
 
-1.Business Url link	
+1.Business Url link
+
 2.Business Name
+
 3.Business Category
+
 4.Business Description	
+
 5.Business Tags
+
 6.Business Address
+
 7.Business Contact Number
+
 8.Business Website
+
 9.Business Faceboook Page
