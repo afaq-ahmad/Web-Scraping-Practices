@@ -1,0 +1,180 @@
+[
+    {
+        "domain": "www.yelp.com", 
+        "expiry": 1535860262, 
+        "httpOnly": false, 
+        "name": "qntcst", 
+        "path": "/biz", 
+        "secure": false, 
+        "value": "D"
+    }, 
+    {
+        "domain": "www.yelp.com", 
+        "expiry": 1536771462.72319, 
+        "httpOnly": true, 
+        "name": "D_ZUID", 
+        "path": "/", 
+        "secure": false, 
+        "value": "58A82970-1325-34CA-AFFB-4630D1FE1C27"
+    }, 
+    {
+        "domain": ".yelp.com", 
+        "expiry": 2164780250.305699, 
+        "httpOnly": false, 
+        "name": "yuv", 
+        "path": "/", 
+        "secure": false, 
+        "value": "jd3C5kU-re2XKF4gw8-1GiFyjvTXQifR1ilWfywIh0SwRm4Ghqgh8WXVtcvCJfWg0AaFlKXcKGwDI2LJfPuLkjOeq2Hnves8"
+    }, 
+    {
+        "domain": "www.yelp.com", 
+        "expiry": 1536771462.723008, 
+        "httpOnly": true, 
+        "name": "D_IID", 
+        "path": "/", 
+        "secure": false, 
+        "value": "76D228C6-8D0F-33D6-A430-2D4697478FD5"
+    }, 
+    {
+        "domain": ".yelp.com", 
+        "expiry": 2164780250.30606, 
+        "httpOnly": false, 
+        "name": "hl", 
+        "path": "/", 
+        "secure": false, 
+        "value": "en_US"
+    }, 
+    {
+        "domain": ".yelp.com", 
+        "expiry": 2164862282.386809, 
+        "httpOnly": false, 
+        "name": "location", 
+        "path": "/", 
+        "secure": false, 
+        "value": "%7B%22city%22%3A+%22Los+Angeles%22%2C+%22zip%22%3A+%22%22%2C+%22country%22%3A+%22US%22%2C+%22address2%22%3A+%22%22%2C+%22address3%22%3A+%22%22%2C+%22state%22%3A+%22CA%22%2C+%22address1%22%3A+%22%22%2C+%22unformatted%22%3A+%22Los+Angeles+Webscraping%22%7D"
+    }, 
+    {
+        "domain": ".yelp.com", 
+        "expiry": 1534229859, 
+        "httpOnly": false, 
+        "name": "_gid", 
+        "path": "/", 
+        "secure": false, 
+        "value": "GA1.2.559739536.1534060251"
+    }, 
+    {
+        "domain": ".yelp.com", 
+        "expiry": 1597215459, 
+        "httpOnly": false, 
+        "name": "_ga", 
+        "path": "/", 
+        "secure": false, 
+        "value": "GA1.2.CCBB97B2DD8D1653"
+    }, 
+    {
+        "domain": "www.yelp.com", 
+        "expiry": 1536771462.723089, 
+        "httpOnly": true, 
+        "name": "D_UID", 
+        "path": "/", 
+        "secure": false, 
+        "value": "85BD6647-8D7F-34B4-925D-E078014981D6"
+    }, 
+    {
+        "domain": ".yelp.com", 
+        "expiry": 1541919459.186632, 
+        "httpOnly": false, 
+        "name": "xcj", 
+        "path": "/", 
+        "secure": false, 
+        "value": "1|O0L-cx50P9qmmLXDe3G01T2PejMO-C--bzOiwzCQ2HY"
+    }, 
+    {
+        "domain": ".yelp.com", 
+        "httpOnly": false, 
+        "name": "recentlocations", 
+        "path": "/", 
+        "secure": false, 
+        "value": ""
+    }, 
+    {
+        "domain": "www.yelp.com", 
+        "expiry": 1536771462.72314, 
+        "httpOnly": true, 
+        "name": "D_ZID", 
+        "path": "/", 
+        "secure": false, 
+        "value": "79607673-1D0E-3AE7-A71B-9AE9754CFC76"
+    }, 
+    {
+        "domain": "www.yelp.com", 
+        "expiry": 1536771462.723239, 
+        "httpOnly": true, 
+        "name": "D_HID", 
+        "path": "/", 
+        "secure": false, 
+        "value": "C4425D41-0869-3605-8871-1275B864E41E"
+    }, 
+    {
+        "domain": "www.yelp.com", 
+        "expiry": 1535901589, 
+        "httpOnly": false, 
+        "name": "qntcst", 
+        "path": "/", 
+        "secure": false, 
+        "value": "D"
+    }, 
+    {
+        "domain": "www.yelp.com", 
+        "expiry": 1565596262.987481, 
+        "httpOnly": true, 
+        "name": "D_SID", 
+        "path": "/", 
+        "secure": false, 
+        "value": "103.255.6.83:Rstw7k6RuT2CNH7nr1tJhibPMjGUdDYX7L5uo/tJGJM"
+    }, 
+    {
+        "domain": ".yelp.com", 
+        "expiry": 1567929063, 
+        "httpOnly": false, 
+        "name": "__qca", 
+        "path": "/", 
+        "secure": false, 
+        "value": "P0-1558625672-1534060263042"
+    }, 
+    {
+        "domain": "www.yelp.com", 
+        "expiry": 2164780270, 
+        "httpOnly": false, 
+        "name": "_raqcs", 
+        "path": "/", 
+        "secure": false, 
+        "value": "3"
+    }, 
+    {
+        "domain": ".yelp.com", 
+        "httpOnly": true, 
+        "name": "bse", 
+        "path": "/", 
+        "secure": false, 
+        "value": "e2e614e32ff949e6ac3805a81de01b8b"
+    }, 
+    {
+        "domain": ".yelp.com", 
+        "expiry": 1565679210.609795, 
+        "httpOnly": true, 
+        "name": "__cfduid", 
+        "path": "/", 
+        "secure": false, 
+        "value": "dfa1a61c913038031330113bdcaca5ee51534143209"
+    }, 
+    {
+        "domain": ".www.yelp.com", 
+        "expiry": 1565679467, 
+        "httpOnly": false, 
+        "name": "__ar_v4", 
+        "path": "/", 
+        "secure": false, 
+        "value": "BHPKS4B4ONEJJMGH4QCJZR%3A20180811%3A7%7CQB5JPFIKRZDSBOZSULG4YB%3A20180811%3A7%7C7YX6SJQ4RZAMPB6LZ7CHFF%3A20180811%3A7"
+    }
+]
