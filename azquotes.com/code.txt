@@ -1,0 +1,50 @@
+import requests
+from bs4 import BeautifulSoup
+
+url = "https://www.azquotes.com/quotes/authors/a/"
+page = requests.get(url)
+
+soup = BeautifulSoup(page.content, 'html.parser')
+
+tbody=soup.find('table',class_="table").find('tbody')
+tbodytr=tbody.find_all('tr')
+for i in range(0,len(tbodytr)):
+    tbodytrtd=tbodytr[i].find_all('td')
+    link=tbodytrtd[0].find('a').get('href')
+    AUTHOR=tbodytrtd[0].text.replace('\n','').replace('  ','')
+    ABOUT=tbodytrtd[1].text.replace('\n','').replace('  ','')
+    LIFE_DATES=tbodytrtd[2].text.replace('\n','').replace('  ','')
+    print(link)
+    print(AUTHOR)
+    print(ABOUT)
+    print(LIFE_DATES)
+    print('---------------')
+
+
+pageno=int(soup.findAll('div',class_="pager")[0].find('span').text.replace('Page 1 of ',''))
+pageno
+
+
+url2='https://www.azquotes.com/author/4399-Albert_Einstein'
+page2 = requests.get(url2)
+soup2 = BeautifulSoup(page2.content, 'html.parser')
+
+
+pageno2=int(soup2.findAll('div',class_="pager")[0].find('span').text.replace('Page 1 of ',''))
+pageno2
+author_link='https://www.azquotes.com/author/4399-Albert_Einstein?p='
+
+
+storage1=[]
+list_quotes=soup2.find_all('ul',class_="list-quotes")[0]
+wrap_block=list_quotes.find_all('div',class_="wrap-block")
+for j in range(0,len(wrap_block)):
+    storage0=[]
+    quotes=wrap_block[j].find('p').find('a').text
+    tags=wrap_block[j].find_all('div',class_="mytags")
+    storage0.append(quotes)
+    tagsa=tags[0].find_all('a')
+    for k in range(0,len(tagsa)):
+        storage0.append(tagsa[k].text)
+    storage1.append(storage0)
+    print ('---------------',storage0)
