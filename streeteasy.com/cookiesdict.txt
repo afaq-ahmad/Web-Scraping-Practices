@@ -1,0 +1,36 @@
+[
+    {
+        "domain": ".assist2sell.com", 
+        "expiry": 1534368327, 
+        "httpOnly": false, 
+        "name": "_gid", 
+        "path": "/", 
+        "secure": false, 
+        "value": "GA1.2.1359673852.1534271104"
+    }, 
+    {
+        "domain": ".assist2sell.com", 
+        "expiry": 1597353927, 
+        "httpOnly": false, 
+        "name": "_ga", 
+        "path": "/", 
+        "secure": false, 
+        "value": "GA1.2.368476617.1534271104"
+    }, 
+    {
+        "domain": "assist2sell.com", 
+        "httpOnly": true, 
+        "name": "ASP.NET_SessionId", 
+        "path": "/", 
+        "secure": false, 
+        "value": "pts5glrgorx33ny0wslqdwk0"
+    }, 
+    {
+        "domain": "assist2sell.com", 
+        "httpOnly": true, 
+        "name": "__AntiXsrfToken", 
+        "path": "/", 
+        "secure": false, 
+        "value": "ac33336bd9e946e6bc92cb6aa1fc94b2"
+    }
+]
