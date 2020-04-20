@@ -1,0 +1,26 @@
+[
+    {
+        "domain": "web.binck.nl", 
+        "httpOnly": true, 
+        "name": "__RequestVerificationToken", 
+        "path": "/", 
+        "secure": true, 
+        "value": "JszKfZ-nSjd6WDikraJ2Ys6AkL5OShuXvor0p4j4pfDRZLxBPcssGoArhsyipOTs8LkD-jPTQs286gd937WK4WYO8d6lv3fhbmzy8gg7AoQ3KjZts4mfFFvPAInsKKH_SEOVBoRXT6Ex-MZD9UhAtw2"
+    }, 
+    {
+        "domain": "web.binck.nl", 
+        "httpOnly": true, 
+        "name": ".BinckMvc", 
+        "path": "/", 
+        "secure": true, 
+        "value": "36A0322EB53F9A76683831EA5132DA2C1A1C187B700A59011F975D34D0AE68B6062959DA29BCFD876A56A86A04E39DD27B69425EC980AE3E0FAC01AEE2091BAE1C6033B2E6740DE75BF08C44DB1C3C94C1DE5774F1C5947B4EC4EC64BAA2B42478B3C0A5C78EBA0E974A0CFB7759CC5A9CD3BE4DF287AB2DBA06FA60F9A742C14954E8FDA7E2D45E980744E68AE5AE6CE8E2928E753D0F62A9D2F1DB5CBAB51513F5BF403E8AEB85956F4A4AAD6B6E8B8EA039642E4D45E8BF7047A20FB924B03FB10A24F06562A69BCF7C7CB3109E58"
+    }, 
+    {
+        "domain": "web.binck.nl", 
+        "httpOnly": true, 
+        "name": "ASP.NET_SessionId", 
+        "path": "/", 
+        "secure": true, 
+        "value": "x1vru24dahojvjk44ea4ttsh"
+    }
+]

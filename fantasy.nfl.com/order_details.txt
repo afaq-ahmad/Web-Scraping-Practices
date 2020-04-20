@@ -1,0 +1,51 @@
+September url: http://fantasy.nfl.com/league/4008988/team/7
+
+
+Login id - ###### 
+Password - ######
+
+scrape each week too. 
+
+editable so I can enter a new league code
+
+Practice url: http://fantasy.nfl.com/league/4008988/history/2017/teamhome?teamId=7
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Libraries Required:
+
+Kindly install these libraries in your python compiler and then run the program.
+
+* BeautifulSoup
+* selenium
+* csv
+* json
+* Chrome web browser
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Initial_address="http://fantasy.nfl.com/league/4008988/history/2017/teamhome?teamId=1"
+
+For another league kindly change the league number and year (for future use). But Remain the end word as team Don't put withoout teamid for 1st time.
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Chrome driver:
+
+For this program to work you have to change the chrome drivers path to your chromedriver.exe file path.
+
+or remain in the same folder where code.py
+
+driver = webdriver.Chrome(executable_path=r'chromedriver.exe')
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+This code tested on both spyder and jupyter notebook with python 2.7 base
+
+Run it on basic compiler by using python 
+
+csv.__version__ '1.0'
+selenium.__version__ '3.12.0'
+bs4.__version__ '4.6.0'
+json.__version__ '2.0.9'
